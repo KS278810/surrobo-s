@@ -1,0 +1,33 @@
+{
+ "files": [
+  "surrobo_s/__init__.pyc",
+  "surrobo_s/__main__.pyc",
+  "surrobo_s/cells.pyc",
+  "surrobo_s/cli.pyc",
+  "surrobo_s/codegen.pyc",
+  "surrobo_s/engine.pyc",
+  "surrobo_s/engine_light.pyc",
+  "surrobo_s/engine_pipeline.pyc",
+  "surrobo_s/engine_rs.pyc",
+  "surrobo_s/errors.pyc",
+  "surrobo_s/evaluate.pyc",
+  "surrobo_s/fit.pyc",
+  "surrobo_s/formula.pyc",
+  "surrobo_s/operators.pyc",
+  "surrobo_s/predict.pyc",
+  "surrobo_s/result.pyc",
+  "surrobo_s/screen.pyc",
+  "surrobo_s/split.pyc",
+  "surrobo_s/table.pyc",
+  "surrobo_s/texdoc.pyc",
+  "surrobo_s/textsep.pyc",
+  "surrobo_s/web/__init__.pyc",
+  "surrobo_s/web/cleanup.pyc",
+  "surrobo_s/web/commands.pyc",
+  "surrobo_s/web/inspect.pyc",
+  "surrobo_s/web/local.pyc",
+  "surrobo_s/web/results.pyc",
+  "surrobo_s/web/settings.pyc",
+  "surrobo_s/web/store.pyc"
+ ]
+}
