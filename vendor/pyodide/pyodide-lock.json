@@ -1,0 +1,123 @@
+{
+ "info": {
+  "abi_version": "2025_0",
+  "arch": "wasm32",
+  "platform": "emscripten_4_0_9",
+  "python": "3.13.2",
+  "version": "0.28.0.dev0"
+ },
+ "packages": {
+  "numpy": {
+   "depends": [],
+   "file_name": "numpy-2.2.5-cp313-cp313-pyodide_2025_0_wasm32.whl",
+   "imports": [
+    "numpy"
+   ],
+   "install_dir": "site",
+   "name": "numpy",
+   "package_type": "package",
+   "sha256": "467a88e8c79f9e10c8e7052bcc32dd12d44d51098beb3b8f970e1cfc965c6757",
+   "unvendored_tests": false,
+   "version": "2.2.5"
+  },
+  "sympy": {
+   "depends": [
+    "mpmath"
+   ],
+   "file_name": "sympy-1.13.3-py3-none-any.whl",
+   "imports": [
+    "isympy",
+    "sympy"
+   ],
+   "install_dir": "site",
+   "name": "sympy",
+   "package_type": "package",
+   "sha256": "10b7c79a00da21aa340c1fee6017ea526b8f5ddc92daef56de37f446daa88c83",
+   "unvendored_tests": true,
+   "version": "1.13.3"
+  },
+  "mpmath": {
+   "depends": [],
+   "file_name": "mpmath-1.3.0-py3-none-any.whl",
+   "imports": [
+    "mpmath"
+   ],
+   "install_dir": "site",
+   "name": "mpmath",
+   "package_type": "package",
+   "sha256": "74a1bf2ddcea83195b7e70d2af4365b030765058585d509ebe1e582f70b27fa1",
+   "unvendored_tests": true,
+   "version": "1.3.0"
+  },
+  "scikit-learn": {
+   "depends": [
+    "scipy",
+    "joblib",
+    "threadpoolctl"
+   ],
+   "file_name": "scikit_learn-1.7.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+   "imports": [
+    "sklearn"
+   ],
+   "install_dir": "site",
+   "name": "scikit-learn",
+   "package_type": "package",
+   "sha256": "71a6ad732e0d7e52aa4b81cc4ef4f26a1c45917f38a6ca296d5b33737dd56b2e",
+   "unvendored_tests": true,
+   "version": "1.7.0"
+  },
+  "scipy": {
+   "depends": [
+    "numpy",
+    "openblas"
+   ],
+   "file_name": "scipy-1.14.1-cp313-cp313-pyodide_2025_0_wasm32.whl",
+   "imports": [
+    "scipy"
+   ],
+   "install_dir": "site",
+   "name": "scipy",
+   "package_type": "package",
+   "sha256": "4e1b9bf1d135ab3f81e65653988cdfe6fb05a703938b35d1397ab7b327dc2251",
+   "unvendored_tests": true,
+   "version": "1.14.1"
+  },
+  "openblas": {
+   "depends": [],
+   "file_name": "openblas-0.3.26.zip",
+   "imports": [],
+   "install_dir": "dynlib",
+   "name": "openblas",
+   "package_type": "shared_library",
+   "sha256": "c0beb80dfe34e9c55f4da8a90bf7479278cc7833c20c4498dd0475a08457369e",
+   "unvendored_tests": false,
+   "version": "0.3.26"
+  },
+  "joblib": {
+   "depends": [],
+   "file_name": "joblib-1.4.2-py3-none-any.whl",
+   "imports": [
+    "joblib"
+   ],
+   "install_dir": "site",
+   "name": "joblib",
+   "package_type": "package",
+   "sha256": "0442695c4d63401b25202dd7db4fb3027085612364ee5ce077a39f3329ca75a9",
+   "unvendored_tests": true,
+   "version": "1.4.2"
+  },
+  "threadpoolctl": {
+   "depends": [],
+   "file_name": "threadpoolctl-3.5.0-py3-none-any.whl",
+   "imports": [
+    "threadpoolctl"
+   ],
+   "install_dir": "site",
+   "name": "threadpoolctl",
+   "package_type": "package",
+   "sha256": "4c7afd9a403c3ac4db535d6aca2090cfde391c0883b15080cbc3c573e4fcae9b",
+   "unvendored_tests": false,
+   "version": "3.5.0"
+  }
+ }
+}

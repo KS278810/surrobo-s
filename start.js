@@ -1,0 +1,1 @@
+window.AD.app.boot().catch(w=>{throw window.Splash&&window.Splash.fail(w&&w.message),w});
